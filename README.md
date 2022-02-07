@@ -18,7 +18,7 @@ You can get this from etherscan.io
 `abi = '[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"} ... ]'`  
 
 5. Enter the Smart Contract owner's wallet address and private key  
-WARNING: the Private Key is SENSITIVE and should not be stored here in production  
+WARNING: the Private Key is SENSITIVE and should NOT be stored here in production!!  
 `contractowner_address = "0x00000000000000000000000"`  
 `contactowner_private_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"`  
 
