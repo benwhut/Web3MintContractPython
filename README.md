@@ -25,7 +25,7 @@ WARNING: the Private Key is SENSITIVE and should NOT be stored here in productio
 6. Enter the the purchaser's (To) wallet address  
 `towallet_address = "0x00000000000000000000000"`  
 
-7. In build the transaction (tx), specify the gas and price to be paid  
+7. In build the transaction (tx), specify the gas and amount to be paid  
 'gas' is the gas fee you pay in Wei (in the example below, 1,000,000 Wei = 0.000000000001 ETH)  
 'value' is the amount you pay to mint the token (in the example below, 10 Finney = 0.01 ETH)  
 ```
