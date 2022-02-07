@@ -12,7 +12,7 @@ Simple script to mint an Ethereum based token from a given Smart Contract using 
 This is required to query the Ethereum blockchain  
 `infura_url = "https://rinkeby.infura.io/v3/00000000000000000000000"`  
 
-4. Enter the address and ABI of the Smart Contract  
+4. Enter the address and ABI of the Smart Contract (From)  
 You can get this from etherscan.io  
 `contract_address = web3.toChecksumAddress("0x00000000000000000000000")`  
 `abi = '[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"}]'`  
