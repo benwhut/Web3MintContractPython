@@ -15,7 +15,7 @@ This is required to query the Ethereum blockchain
 4. Enter the address and ABI of the Smart Contract (From)  
 You can get this from etherscan.io  
 `contract_address = web3.toChecksumAddress("0x00000000000000000000000")`  
-`abi = '[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"}]'`  
+`abi = '[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"} ... ]'`  
 
 5. Enter the Smart Contract owner's wallet address and private key  
 WARNING: the Private Key is SENSITIVE and should not be stored here in production  
