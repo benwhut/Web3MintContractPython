@@ -33,7 +33,7 @@ def __main__():
 
     # Enter contract owner's wallet address
     contractowner_address = "0x00000000000000000000"
-    # Enter contract owner's private key (SENSITIVE! Don't store this here in production)
+    # Enter contract owner's private key (WARNING: SENSITIVE! Don't store this here in production!!)
     contactowner_private_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
     # Enter the purchaser's (To) wallet address
