@@ -46,7 +46,7 @@ def __main__():
 
     # Build the transaction
     # 'gas' is the gas fee you pay in Wei (in this case, 1,000,000 Wei = 0.000000000001 ETH)
-    # 'value' is the amount you pay for the transaction (in this case, 10 Finney = 0.01 ETH)
+    # 'value' is the amount you pay to mint the token (in this case, 10 Finney = 0.01 ETH)
     tx = contract.functions.safeMint(
         towallet_address).buildTransaction({
         'gas': 1000000,
