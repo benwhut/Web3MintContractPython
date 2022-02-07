@@ -39,7 +39,7 @@ tx = contract.functions.safeMint(
     }) 
 ```
 
-8. run queryFunctions.py  
+8. run web3MintContract.py  
 `python3 web3MintContract.py`  
 
 
