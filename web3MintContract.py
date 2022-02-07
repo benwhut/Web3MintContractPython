@@ -1,5 +1,8 @@
 #!/usr/bin/python
 
+# Author: Bennett Hui (benwhut@gmail.com)
+# GNU General Public License v3.0
+
 import json
 import requests
 from web3 import Web3
