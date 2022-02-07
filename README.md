@@ -1,5 +1,5 @@
 # Web3MintContractPython
-Example to mint an Ethereum based token from a given Smart Contract using Web3 in Python
+Example of how to mint an Ethereum based token from a given Smart Contract using Web3 in Python
 
 1. Create Python virtual environment (optional)  
 `python -m venv venv`  
