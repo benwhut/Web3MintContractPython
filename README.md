@@ -27,7 +27,7 @@ WARNING: the Private Key is SENSITIVE and should NOT be stored here in productio
 
 7. Build the transaction and specify the gas and price to be paid  
 'gas' is the gas fee you pay in Wei (in the example below, 1,000,000 Wei = 0.000000000001 ETH)  
-'value' is the amount you pay for the transaction (in the example below, 10 Finney = 0.01 ETH)  
+'value' is the amount you pay to mint the token (in the example below, 10 Finney = 0.01 ETH)  
 ```
 tx = contract.functions.safeMint(
     towallet_address).buildTransaction({
