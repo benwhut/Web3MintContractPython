@@ -10,20 +10,20 @@ Simple script to mint an Ethereum based token from a given Smart Contract using 
 
 3. Enter your Ethereum endpoint URL using Infura or equivalent  
 This is required to query the Ethereum blockchain  
-`infura_url = "https://rinkeby.infura.io/v3/00000000000000000000000"`
+`infura_url = "https://rinkeby.infura.io/v3/00000000000000000000000"`  
 
 4. Enter the address and ABI of the Smart Contract  
 You can get this from etherscan.io  
-`contract_address = web3.toChecksumAddress("0x00000000000000000000000")`
-`abi = '[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"}]'`
+`contract_address = web3.toChecksumAddress("0x00000000000000000000000")`  
+`abi = '[{"inputs":[],"stateMutability":"nonpayable","type":"constructor"}]'`  
 
 5. Enter the Smart Contract owner's wallet address and private key  
 WARNING: Private Key is SENSITIVE and should not be stored here in production  
-`contractowner_address = "0x00000000000000000000000"`
-`contactowner_private_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"`
+`contractowner_address = "0x00000000000000000000000"`  
+`contactowner_private_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxx"`  
 
 6. Enter the the purchaser's (To) wallet address  
-`towallet_address = "0x00000000000000000000000"`
+`towallet_address = "0x00000000000000000000000"`  
 
 7. Build the transaction and specify the gas and price to be paid  
 'gas' is the gas fee you pay in Wei (in the example below, 1,000,000 Wei = 0.000000000001 ETH)  
